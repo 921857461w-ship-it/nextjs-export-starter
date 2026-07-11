@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "close": "Close",
+    "getQuote": "Get a Quote"
+  },
+  "form": {
+    "defaultHeading": "Request a Quotation",
+    "defaultLead": "Send drawings, standards or quantities — our engineers reply within 24 hours.",
+    "regarding": "Regarding",
+    "name": "Your name",
+    "email": "Work email",
+    "country": "Country",
+    "quantity": "Quantity",
+    "quantityHint": "e.g. 5,000 pcs",
+    "message": "Message",
+    "sending": "Sending…",
+    "submit": "Send Inquiry",
+    "ok": "Received. We will reply within 24 hours.",
+    "error": "Failed to send — please email us directly."
+  },
+  "contact": {
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Factory address",
+    "mapAlt": "Factory location map"
+  },
+  "product": {
+    "breadcrumb": "Breadcrumb",
+    "model": "Model",
+    "moq": "MOQ",
+    "specs": "Specifications",
+    "zoom": "Zoom image",
+    "requestQuote": "Request Quotation",
+    "whatsapp": "WhatsApp Us"
+  },
+  "footer": {
+    "sitemap": "Sitemap",
+    "contact": "Contact",
+    "compliance": "Compliance",
+    "rights": "All rights reserved.",
+    "docNo": "REV {year} · ENGINEERED SUPPLY"
+  },
+  "sections": {
+    "productRange": "Product Range",
+    "hotProducts": "Popular Products",
+    "categories": "Browse by Category",
+    "certifications": "Certifications & Compliance",
+    "insideFactory": "Inside the Factory",
+    "howWeWork": "Production Process",
+    "whyUs": "Why Choose Us",
+    "buyersSay": "What Buyers Say",
+    "faqHeading": "Frequently Asked Questions",
+    "contactUs": "Contact Us",
+    "ctaHeadline": "Send your drawing. Get a quotation within 24 hours.",
+    "ctaButton": "Get a Quotation",
+    "getQuote": "Get a Quote",
+    "viewProducts": "View Products",
+    "foundedLabel": "Founded",
+    "employeesLabel": "Employees",
+    "relatedProducts": "Related Products",
+    "catalogIntro": "{name} Product Catalogue"
+  }
+}

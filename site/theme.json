@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "source_url": "https://www.dtnut.com",
+  "palette": {
+    "primary": {
+      "l": 0.515,
+      "c": 0.148,
+      "h": 250.8
+    },
+    "bg": {
+      "l": 1,
+      "c": 0,
+      "h": 89.9
+    },
+    "surface": {
+      "l": 0.963,
+      "c": 0.005,
+      "h": 250.8
+    },
+    "ink": {
+      "l": 0.15,
+      "c": 0,
+      "h": 0
+    },
+    "dark_band": {
+      "l": 0.13,
+      "c": 0,
+      "h": 89.9
+    }
+  },
+  "type": {
+    "heading_font": "jost",
+    "body_font": "manrope",
+    "heading_weight": 700,
+    "heading_align": "center",
+    "scale": {
+      "h1": 28,
+      "body": 17
+    }
+  },
+  "shape": {
+    "radius": 0,
+    "button": "rounded",
+    "card": "panel"
+  },
+  "density": {
+    "section_gap": "loose",
+    "container": 1100
+  },
+  "chrome": {
+    "header": "topbar",
+    "footer": "columns"
+  },
+  "imagery": {
+    "hero_treatment": "centered"
+  }
+}

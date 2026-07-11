@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "menu": "菜单",
+    "close": "关闭",
+    "getQuote": "获取报价"
+  },
+  "form": {
+    "defaultHeading": "索取报价",
+    "defaultLead": "发送图纸、标准号或数量——工程师 24 小时内回复。",
+    "regarding": "咨询产品",
+    "name": "姓名",
+    "email": "工作邮箱",
+    "country": "国家/地区",
+    "quantity": "数量",
+    "quantityHint": "如 5,000 件",
+    "message": "留言",
+    "sending": "发送中…",
+    "submit": "发送询盘",
+    "ok": "已收到，我们将在 24 小时内回复。",
+    "error": "发送失败——请直接发邮件联系我们。"
+  },
+  "contact": {
+    "email": "邮箱",
+    "phone": "电话",
+    "address": "工厂地址",
+    "mapAlt": "工厂位置地图"
+  },
+  "product": {
+    "breadcrumb": "面包屑导航",
+    "model": "型号",
+    "moq": "起订量",
+    "specs": "规格参数",
+    "zoom": "放大图片",
+    "requestQuote": "索取报价",
+    "whatsapp": "WhatsApp 联系"
+  },
+  "footer": {
+    "sitemap": "站点地图",
+    "contact": "联系方式",
+    "compliance": "资质认证",
+    "rights": "版权所有。",
+    "docNo": "REV {year} · ENGINEERED SUPPLY"
+  },
+  "sections": {
+    "productRange": "产品中心",
+    "hotProducts": "热门产品",
+    "categories": "按类目浏览",
+    "certifications": "资质与认证",
+    "insideFactory": "工厂实拍",
+    "howWeWork": "生产流程",
+    "whyUs": "为什么选择我们",
+    "buyersSay": "客户评价",
+    "faqHeading": "常见问题",
+    "contactUs": "联系我们",
+    "ctaHeadline": "发来图纸，24 小时内获取报价。",
+    "ctaButton": "索取报价",
+    "getQuote": "获取报价",
+    "viewProducts": "查看产品",
+    "foundedLabel": "成立年份",
+    "employeesLabel": "员工人数",
+    "relatedProducts": "相关产品",
+    "catalogIntro": "{name}产品目录"
+  }
+}

@@ -1,0 +1,269 @@
+@import "tailwindcss";
+
+/* ============================================================
+   BenchSite 单一设计语言「精密工程」— tokens 即法律，见 DESIGN.md
+   语义变量（--bg/--ink/…）在 .tone-dark 子树内整体翻转，
+   组件只使用语义 utility（bg-bg / text-ink / border-line …）。
+   ============================================================ */
+
+:root {
+  /* 中性（全方案共用） */
+  --raw-bg: oklch(1 0 0);
+  --raw-surface: oklch(0.963 0.004 130);
+  --raw-surface-2: oklch(0.928 0.006 130);
+  --raw-ink: oklch(0.22 0.012 130);
+  --raw-muted: oklch(0.46 0.015 130);
+  --raw-line: oklch(0.885 0.006 130);
+
+  --raw-dark-bg: oklch(0.235 0.018 140);
+  --raw-dark-surface: oklch(0.285 0.02 140);
+  --raw-dark-ink: oklch(0.955 0.004 130);
+  --raw-dark-muted: oklch(0.74 0.02 130);
+  --raw-dark-line: oklch(0.38 0.02 140);
+
+  /* scheme: machine（默认）。仅 --primary 允许按客户 logo 注入。
+     accent L≤0.55：保证其上白字 ≥4.5:1（WCAG） */
+  --primary: oklch(0.5 0.13 132);
+  --accent: oklch(0.55 0.17 42);
+  --on-primary: oklch(1 0 0);
+  --on-accent: oklch(1 0 0);
+  /* 深底上可读的 primary 变体（徽章/链接） */
+  --primary-bright: oklch(0.78 0.11 132);
+
+  /* 语义层（浅底默认） */
+  --bg: var(--raw-bg);
+  --surface: var(--raw-surface);
+  --surface-2: var(--raw-surface-2);
+  --ink: var(--raw-ink);
+  --muted: var(--raw-muted);
+  --line: var(--raw-line);
+
+  --radius: 2px;
+  --z-nav: 40;
+  --z-overlay: 50;
+  --z-modal: 60;
+  --z-toast: 70;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-scheme="signal"] {
+  --primary: oklch(0.45 0.1 250);
+  --accent: oklch(0.55 0.13 70);
+  --primary-bright: oklch(0.76 0.09 250);
+}
+
+[data-scheme="oxide"] {
+  --primary: oklch(0.46 0.12 28);
+  --accent: oklch(0.55 0.09 245);
+  --primary-bright: oklch(0.77 0.09 28);
+}
+
+/* 深底段落：语义变量整体翻转，子树内 utility 自动换色 */
+.tone-dark {
+  --bg: var(--raw-dark-bg);
+  --surface: var(--raw-dark-surface);
+  --surface-2: var(--raw-dark-surface);
+  --ink: var(--raw-dark-ink);
+  --muted: var(--raw-dark-muted);
+  --line: var(--raw-dark-line);
+}
+
+@theme inline {
+  --color-*: initial;
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-primary: var(--primary);
+  --color-primary-bright: var(--primary-bright);
+  --color-on-primary: var(--on-primary);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  --color-white: oklch(1 0 0);
+  --color-black: oklch(0 0 0);
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  --font-sans: var(--font-body, var(--fp-archivo)), var(--font-noto-sc),
+    system-ui, "PingFang SC", "Microsoft YaHei", sans-serif;
+
+  /* 字阶（≥1.25 模数），display 见 .type-display */
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1.35;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.5;
+  --text-base: 1rem;
+  --text-base--line-height: 1.65;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 1.6;
+  --text-xl: 1.375rem;
+  --text-xl--line-height: 1.4;
+  --text-2xl: 1.75rem;
+  --text-2xl--line-height: 1.25;
+  --text-3xl: 2.25rem;
+  --text-3xl--line-height: 1.15;
+
+  --radius-sm: var(--radius);
+
+  --ease-out-quart: var(--ease-out);
+}
+
+/* ---------- 基础 ---------- */
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: var(--fs-body, 1rem);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+::selection {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.tone-dark :focus-visible,
+.on-primary-block :focus-visible {
+  outline-color: var(--dark-ink, oklch(0.955 0.004 130));
+}
+
+/* ---------- 品牌签名件 ---------- */
+
+/* display 标题：字族/字重由 theme 驱动；font-stretch 仅对带 wdth 轴字体生效 */
+.type-display {
+  font-family: var(--font-heading, inherit), var(--font-noto-sc), sans-serif;
+  font-weight: calc(var(--heading-weight, 800) + 100);
+  font-stretch: 112%;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  font-size: clamp(2.5rem, 1.9rem + 3vw, var(--fs-display-max, 5rem));
+}
+
+.type-display-sm {
+  font-family: var(--font-heading, inherit), var(--font-noto-sc), sans-serif;
+  font-weight: var(--heading-weight, 800);
+  font-stretch: 112%;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  font-size: clamp(1.9rem, 1.5rem + 2vw, 3rem);
+}
+
+/* 标牌标签：condensed 全大写（规格表头/徽章专用，不做 eyebrow） */
+.type-label {
+  font-weight: 600;
+  font-stretch: 92%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1.3;
+}
+
+/* 钢印数字 */
+.type-figure {
+  font-weight: 800;
+  font-stretch: 118%;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+  line-height: 1;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* 尺寸标注线：两端带短竖线的 hairline（唯一装饰线语法） */
+.dim-rule {
+  position: relative;
+  height: 1px;
+  background: var(--line);
+}
+.dim-rule::before,
+.dim-rule::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  width: 1px;
+  height: 9px;
+  background: var(--line);
+}
+.dim-rule::before {
+  left: 0;
+}
+.dim-rule::after {
+  right: 0;
+}
+
+/* 坐标纸纹理：深底段落专用 */
+.graph-paper {
+  background-image: linear-gradient(var(--raw-dark-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--raw-dark-line) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: -1px -1px;
+}
+
+/* section 纵向节奏（密度由 theme 的 --gap-factor 缩放） */
+.section-pad {
+  padding-block: calc(clamp(4rem, 8vw, 6.5rem) * var(--gap-factor, 1));
+}
+.section-pad-tight {
+  padding-block: calc(clamp(2.75rem, 5.5vw, 4.5rem) * var(--gap-factor, 1));
+}
+
+.container-site {
+  margin-inline: auto;
+  max-width: var(--container-w, 74rem);
+  padding-inline: clamp(1.25rem, 4vw, 2.5rem);
+}
+
+/* ---------- 动效（预算内：纯 CSS，一次性） ---------- */
+
+@keyframes fade-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.anim-rise {
+  animation: fade-rise 0.6s var(--ease-out) both;
+}
+.anim-rise-late {
+  animation: fade-rise 0.6s 0.12s var(--ease-out) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-rise,
+  .anim-rise-late {
+    animation: none;
+  }
+  *,
+  ::before,
+  ::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

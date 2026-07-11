@@ -1,0 +1,55 @@
+{
+  "name": "nextjs-export-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js starter for B2B export / factory inquiry websites (en/zh, SEO, product catalog, RFQ form)",
+  "author": "Gavin / ModalCube <xqi@live.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasharun/nextjs-export-starter.git"
+  },
+  "homepage": "https://github.com/sasharun/nextjs-export-starter#readme",
+  "keywords": [
+    "nextjs",
+    "export-website",
+    "b2b",
+    "factory-website",
+    "inquiry",
+    "rfq",
+    "i18n",
+    "foreign-trade",
+    "外贸独立站",
+    "工厂官网",
+    "resend",
+    "sanity"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "content:pull": "node scripts/pull-from-sanity.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "next-intl": "^4.13.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.15.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

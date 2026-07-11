@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "pages": [
+    { "id": "home", "label_en": "Home", "label_zh": "首页", "nav": true },
+    { "id": "products", "label_en": "Products", "label_zh": "产品中心", "nav": true },
+    { "id": "about", "label_en": "About Us", "label_zh": "关于我们", "nav": true },
+    { "id": "quality", "label_en": "Quality Control", "label_zh": "质量控制", "nav": true },
+    { "id": "faq", "label_en": "FAQs", "label_zh": "常见问题", "nav": true },
+    { "id": "contact", "label_en": "Contact", "label_zh": "联系我们", "nav": true }
+  ],
+  "sections": {
+    "home": [
+      { "type": "hero", "hints": { "headline_style": "company", "media": "image", "cta_count": 1 } },
+      { "type": "about_text", "hints": { "variant": "centered", "intent": "catalog" } },
+      { "type": "product_grid", "hints": { "label": "main", "count": 6, "columns": 3 } },
+      { "type": "product_grid", "hints": { "label": "hot", "count": 4, "columns": 4 } },
+      { "type": "category_nav", "hints": { "style": "index" } },
+      { "type": "advantage_grid", "hints": { "count": 4 } },
+      { "type": "cta_band", "hints": { "destination": "contact" } }
+    ],
+    "products": [
+      { "type": "category_nav", "hints": { "style": "index" } },
+      { "type": "product_grid", "hints": { "grouped_by_category": true, "columns": 3 } }
+    ],
+    "about": [
+      { "type": "about_text", "hints": {} },
+      { "type": "stats_bar", "hints": { "count": 4 } },
+      { "type": "process_timeline", "hints": { "steps": 6 } },
+      { "type": "cert_wall", "hints": { "count": 4 } },
+      { "type": "cta_band", "hints": { "destination": "contact" } }
+    ],
+    "quality": [
+      { "type": "advantage_grid", "hints": { "count": 4 } },
+      { "type": "factory_gallery", "hints": { "count": 6 } },
+      { "type": "cta_band", "hints": { "destination": "contact" } }
+    ],
+    "faq": [
+      { "type": "faq", "hints": {} },
+      { "type": "cta_band", "hints": { "destination": "contact" } }
+    ],
+    "contact": [
+      { "type": "contact_block", "hints": {} },
+      { "type": "inquiry_form", "hints": {} }
+    ]
+  },
+  "notes": "Demo IA for a B2B factory export site. Edit section order/types freely; props come from content-pack.json via the section registry."
+}

@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "company": {
+    "name_en": "Haiwei Fastener (Ningbo) Co., Ltd.",
+    "name_zh": "宁波海威紧固件有限公司",
+    "short_name_en": "HAIWEI FASTENER",
+    "short_name_zh": "海威紧固件",
+    "tagline_en": "High-strength nuts, bolts and threaded rods — M6 to M64, made to standard since 2008.",
+    "tagline_zh": "高强度螺母、螺栓与螺纹杆——M6 至 M64，按标准制造，始于 2008。",
+    "founded": 2008,
+    "employees": "120+",
+    "about_en": "Haiwei Fastener manufactures high-strength nuts, bolts and threaded rods at a 15,000 m² plant in Ningbo, 40 minutes from Ningbo-Zhoushan port. Founded in 2008, we run 32 cold-forging and thread-rolling lines with an annual capacity of 8,000 tons, producing to ISO, DIN, ASTM, GB and EN standards in property classes 8 to 12.9. Every batch ships with mill certificates and full dimensional inspection reports. Our fasteners are used in structural steel, rail, wind power and machinery projects across 40+ countries in Europe, the Americas, the Middle East and Southeast Asia.",
+    "about_zh": "宁波海威紧固件有限公司位于宁波，厂区面积 15,000 平方米，距宁波舟山港 40 分钟车程。公司成立于 2008 年，拥有冷镦与搓丝产线 32 条，年产能 8,000 吨，按 ISO、DIN、ASTM、GB、EN 标准生产 8 级至 12.9 级高强度紧固件。每批次随附材质证明与全尺寸检验报告。产品应用于钢结构、轨道、风电与机械项目，出口欧洲、美洲、中东与东南亚 40 多个国家。",
+    "whatsapp": "+86 138 5741 0000",
+    "email": "sales@haiwei-fastener.com",
+    "phone": "+86 574 8811 0000",
+    "address_en": "No. 58 Zhenhai Industrial Zone, Ningbo, Zhejiang, China 315200",
+    "address_zh": "浙江省宁波市镇海工业区 58 号，315200",
+    "map_image": "map.jpg"
+  },
+  "hero": {
+    "headline_en": "High-Strength Fasteners, Engineered to Standard",
+    "headline_zh": "高强度紧固件，按标准制造",
+    "subline_en": "ISO · DIN · ASTM nuts, bolts and threaded rods from M6 to M64. 8,000 t annual capacity, salt-spray tested, delivered to 40+ countries.",
+    "subline_zh": "ISO · DIN · ASTM 标准螺母、螺栓与螺纹杆，规格 M6–M64。年产能 8,000 吨，盐雾测试验证，出口 40 多个国家。",
+    "image": "hero.jpg",
+    "badges": ["ISO 9001:2015", "SINCE 2008", "CLASS 8.8–12.9", "PED 2014/68/EU"]
+  },
+  "stats": [
+    { "label_en": "Years Exporting", "label_zh": "出口年限", "value": "18" },
+    { "label_en": "Countries Served", "label_zh": "出口国家", "value": "40+" },
+    { "label_en": "Annual Capacity (t)", "label_zh": "年产能（吨）", "value": "8,000" },
+    { "label_en": "Production Lines", "label_zh": "生产线", "value": "32" }
+  ],
+  "categories": [
+    {
+      "id": "hex-nuts",
+      "name_en": "Hex Nuts",
+      "name_zh": "六角螺母",
+      "children": [
+        { "id": "iso-4032", "name_en": "ISO 4032", "name_zh": "ISO 4032" },
+        { "id": "din-934", "name_en": "DIN 934", "name_zh": "DIN 934" },
+        { "id": "gb-6170", "name_en": "GB 6170", "name_zh": "GB 6170" }
+      ]
+    },
+    {
+      "id": "flange-nuts",
+      "name_en": "Flange Nuts",
+      "name_zh": "法兰螺母",
+      "children": [
+        { "id": "din-6923", "name_en": "DIN 6923", "name_zh": "DIN 6923" },
+        { "id": "iso-4161", "name_en": "ISO 4161", "name_zh": "ISO 4161" }
+      ]
+    },
+    {
+      "id": "lock-nuts",
+      "name_en": "Lock Nuts",
+      "name_zh": "锁紧螺母",
+      "children": [
+        { "id": "din-985", "name_en": "DIN 985 Nylon Insert", "name_zh": "DIN 985 尼龙锁紧" },
+        { "id": "din-980", "name_en": "DIN 980 All-Metal", "name_zh": "DIN 980 全金属" }
+      ]
+    },
+    {
+      "id": "hex-bolts",
+      "name_en": "Hex Bolts",
+      "name_zh": "六角螺栓",
+      "children": [
+        { "id": "din-933", "name_en": "DIN 933", "name_zh": "DIN 933" },
+        { "id": "iso-4014", "name_en": "ISO 4014", "name_zh": "ISO 4014" },
+        { "id": "astm-a325", "name_en": "ASTM A325", "name_zh": "ASTM A325" }
+      ]
+    },
+    {
+      "id": "structural-bolts",
+      "name_en": "Structural Bolt Sets",
+      "name_zh": "钢结构螺栓组",
+      "children": [
+        { "id": "en-14399", "name_en": "EN 14399-4 HV", "name_zh": "EN 14399-4 HV" },
+        { "id": "gb-1228", "name_en": "GB/T 1228", "name_zh": "GB/T 1228" }
+      ]
+    },
+    {
+      "id": "threaded-rods",
+      "name_en": "Threaded Rods",
+      "name_zh": "螺纹杆",
+      "children": [
+        { "id": "din-975", "name_en": "DIN 975", "name_zh": "DIN 975" },
+        { "id": "astm-a193", "name_en": "ASTM A193 B7", "name_zh": "ASTM A193 B7" }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "hn-iso4032-cl8",
+      "category": "hex-nuts",
+      "name_en": "Hex Nut ISO 4032, Class 8",
+      "name_zh": "六角螺母 ISO 4032，8 级",
+      "model": "ISO 4032",
+      "specs": [
+        ["Standard", "ISO 4032 / DIN 934"],
+        ["Size range", "M6 – M64"],
+        ["Property class", "8 / 10"],
+        ["Material", "Medium carbon steel"],
+        ["Finish", "Plain / Zinc plated / HDG"],
+        ["Thread", "Metric coarse, 6H"]
+      ],
+      "specs_zh": [
+        ["标准", "ISO 4032 / DIN 934"],
+        ["规格范围", "M6 – M64"],
+        ["性能等级", "8 / 10"],
+        ["材质", "中碳钢"],
+        ["表面处理", "本色 / 镀锌 / 热浸镀锌"],
+        ["螺纹", "公制粗牙 6H"]
+      ],
+      "images": ["product-01.jpg"],
+      "moq": "1,000 pcs"
+    },
+    {
+      "id": "hn-din934-ss304",
+      "category": "hex-nuts",
+      "name_en": "Hex Nut DIN 934, Stainless A2",
+      "name_zh": "六角螺母 DIN 934，不锈钢 A2",
+      "model": "DIN 934",
+      "specs": [
+        ["Standard", "DIN 934"],
+        ["Size range", "M4 – M36"],
+        ["Material", "SS304 (A2-70)"],
+        ["Corrosion test", "Salt-spray 500 h"],
+        ["Thread", "Metric coarse, 6H"]
+      ],
+      "specs_zh": [
+        ["标准", "DIN 934"],
+        ["规格范围", "M4 – M36"],
+        ["材质", "SS304（A2-70）"],
+        ["耐蚀测试", "盐雾 500 小时"],
+        ["螺纹", "公制粗牙 6H"]
+      ],
+      "images": ["product-02.jpg"],
+      "moq": "1,000 pcs"
+    },
+    {
+      "id": "hn-gb6170-cl10",
+      "category": "hex-nuts",
+      "name_en": "Hex Nut GB 6170, Class 10",
+      "name_zh": "六角螺母 GB 6170，10 级",
+      "model": "GB 6170",
+      "specs": [
+        ["Standard", "GB/T 6170"],
+        ["Size range", "M8 – M48"],
+        ["Property class", "10"],
+        ["Material", "Medium carbon alloy steel"],
+        ["Finish", "Black oxide / Zinc plated"]
+      ],
+      "images": ["product-03.jpg"],
+      "moq": "2,000 pcs"
+    },
+    {
+      "id": "fn-din6923-cl8",
+      "category": "flange-nuts",
+      "name_en": "Serrated Flange Nut DIN 6923",
+      "name_zh": "带齿法兰螺母 DIN 6923",
+      "model": "DIN 6923",
+      "specs": [
+        ["Standard", "DIN 6923 / ISO 4161"],
+        ["Size range", "M5 – M20"],
+        ["Property class", "8 / 10"],
+        ["Serration", "Anti-loosening, 90°"],
+        ["Finish", "Zinc plated / Dacromet"]
+      ],
+      "images": ["product-04.jpg"],
+      "moq": "5,000 pcs"
+    },
+    {
+      "id": "ln-din985-nylon",
+      "category": "lock-nuts",
+      "name_en": "Nylon Insert Lock Nut DIN 985",
+      "name_zh": "尼龙锁紧螺母 DIN 985",
+      "model": "DIN 985",
+      "specs": [
+        ["Standard", "DIN 985"],
+        ["Size range", "M3 – M36"],
+        ["Property class", "8 / 10"],
+        ["Insert", "PA66 nylon, -40 °C to +120 °C"],
+        ["Prevailing torque", "Per ISO 2320"]
+      ],
+      "images": ["product-05.jpg"],
+      "moq": "5,000 pcs"
+    },
+    {
+      "id": "ln-din980-metal",
+      "category": "lock-nuts",
+      "name_en": "All-Metal Lock Nut DIN 980",
+      "name_zh": "全金属锁紧螺母 DIN 980",
+      "model": "DIN 980V",
+      "specs": [
+        ["Standard", "DIN 980V"],
+        ["Size range", "M6 – M30"],
+        ["Property class", "10"],
+        ["Temperature", "Up to 300 °C"],
+        ["Finish", "Zinc flake coating"]
+      ],
+      "images": ["product-06.jpg"],
+      "moq": "3,000 pcs"
+    },
+    {
+      "id": "hb-din933-88",
+      "category": "hex-bolts",
+      "name_en": "Hex Bolt DIN 933, Grade 8.8",
+      "name_zh": "六角螺栓 DIN 933，8.8 级",
+      "model": "DIN 933",
+      "specs": [
+        ["Standard", "DIN 933 / ISO 4017"],
+        ["Size range", "M6 – M48 × 300"],
+        ["Property class", "8.8"],
+        ["Material", "Medium carbon steel, quenched & tempered"],
+        ["Finish", "Plain / Zinc / HDG"],
+        ["Full thread", "Yes"]
+      ],
+      "images": ["product-07.jpg"],
+      "moq": "1,000 pcs"
+    },
+    {
+      "id": "hb-iso4014-109",
+      "category": "hex-bolts",
+      "name_en": "Hex Bolt ISO 4014, Grade 10.9",
+      "name_zh": "六角螺栓 ISO 4014，10.9 级",
+      "model": "ISO 4014",
+      "specs": [
+        ["Standard", "ISO 4014"],
+        ["Size range", "M8 – M42 × 400"],
+        ["Property class", "10.9"],
+        ["Heat treatment", "Quenched & tempered"],
+        ["Hardness", "32 – 39 HRC"],
+        ["Partial thread", "Yes"]
+      ],
+      "images": ["product-08.jpg"],
+      "moq": "1,000 pcs"
+    },
+    {
+      "id": "hb-astm-a325",
+      "category": "hex-bolts",
+      "name_en": "Heavy Hex Structural Bolt ASTM A325",
+      "name_zh": "重型六角结构螺栓 ASTM A325",
+      "model": "ASTM A325",
+      "specs": [
+        ["Standard", "ASTM A325 Type 1"],
+        ["Size range", "1/2\" – 1-1/2\""],
+        ["Tensile strength", "≥ 120 ksi"],
+        ["Material", "Medium carbon steel"],
+        ["Finish", "Plain / HDG"]
+      ],
+      "images": ["product-09.jpg"],
+      "moq": "500 pcs"
+    },
+    {
+      "id": "sb-en14399-hv",
+      "category": "structural-bolts",
+      "name_en": "HV Bolt Set EN 14399-4",
+      "name_zh": "HV 钢结构螺栓组 EN 14399-4",
+      "model": "EN 14399-4",
+      "specs": [
+        ["Standard", "EN 14399-4 (bolt + nut + washer)"],
+        ["Size range", "M12 – M36"],
+        ["Property class", "10.9 / 10"],
+        ["CE marking", "PED 2014/68/EU"],
+        ["K-class", "K1"],
+        ["Finish", "HDG 55 µm"]
+      ],
+      "images": ["product-10.jpg"],
+      "moq": "500 sets"
+    },
+    {
+      "id": "sb-gb1228",
+      "category": "structural-bolts",
+      "name_en": "High-Strength Bolt Set GB/T 1228",
+      "name_zh": "高强度螺栓组 GB/T 1228",
+      "model": "GB/T 1228",
+      "specs": [
+        ["Standard", "GB/T 1228 – 1231"],
+        ["Size range", "M16 – M30"],
+        ["Property class", "10.9S"],
+        ["Torque coefficient", "0.110 – 0.150"],
+        ["Application", "Steel structure connections"]
+      ],
+      "images": ["product-11.jpg"],
+      "moq": "500 sets"
+    },
+    {
+      "id": "tr-din975-b7",
+      "category": "threaded-rods",
+      "name_en": "Threaded Rod DIN 975 / ASTM A193 B7",
+      "name_zh": "螺纹杆 DIN 975 / ASTM A193 B7",
+      "model": "DIN 975",
+      "specs": [
+        ["Standard", "DIN 975 / ASTM A193 B7"],
+        ["Size range", "M6 – M64 × 1000/2000/3000 mm"],
+        ["Material", "42CrMo4 / B7 alloy steel"],
+        ["Tensile strength", "≥ 860 MPa"],
+        ["Finish", "Plain / Zinc / PTFE coated"]
+      ],
+      "images": ["product-12.jpg"],
+      "moq": "200 pcs"
+    }
+  ],
+  "certs": [
+    { "type": "ISO 9001:2015", "image": "cert-iso9001.png" },
+    { "type": "ISO 14001:2015", "image": "cert-iso14001.png" },
+    { "type": "CE · PED 2014/68/EU", "image": "cert-ce.png" },
+    { "type": "SGS Audited Supplier", "image": "cert-sgs.png" }
+  ],
+  "gallery": [
+    { "src": "factory-1.jpg", "alt_en": "Cold forging line in the Ningbo plant", "alt_zh": "宁波工厂冷镦产线" },
+    { "src": "factory-2.jpg", "alt_en": "CNC thread rolling machines", "alt_zh": "数控搓丝设备" },
+    { "src": "factory-3.jpg", "alt_en": "Heat treatment furnace", "alt_zh": "热处理炉" },
+    { "src": "factory-4.jpg", "alt_en": "Dimensional inspection bench", "alt_zh": "尺寸检验台" },
+    { "src": "factory-5.jpg", "alt_en": "Finished goods warehouse", "alt_zh": "成品仓库" },
+    { "src": "factory-6.jpg", "alt_en": "Packing line before export", "alt_zh": "出口包装线" }
+  ],
+  "process": [
+    { "title_en": "Wire Rod Inspection", "title_zh": "线材进料检验", "desc_en": "Mill certificate check and spectrographic analysis on every incoming coil.", "desc_zh": "每卷进料核对材质证明并做光谱分析。" },
+    { "title_en": "Cold Forging", "title_zh": "冷镦成型", "desc_en": "32 multi-station cold forging lines, M6 to M64.", "desc_zh": "32 条多工位冷镦产线，覆盖 M6–M64。" },
+    { "title_en": "Thread Rolling", "title_zh": "搓丝滚牙", "desc_en": "Rolled threads to 6H/6g tolerance, 100% gauge checked.", "desc_zh": "滚压螺纹公差 6H/6g，通止规全检。" },
+    { "title_en": "Heat Treatment", "title_zh": "热处理", "desc_en": "Continuous mesh-belt furnaces, hardness verified per batch.", "desc_zh": "连续网带炉，逐批验证硬度。" },
+    { "title_en": "Surface Coating", "title_zh": "表面处理", "desc_en": "Zinc, HDG or zinc-flake; salt-spray tested to 500 h.", "desc_zh": "镀锌 / 热浸镀锌 / 锌铝涂层，盐雾测试 500 小时。" },
+    { "title_en": "Final Inspection", "title_zh": "成品全检", "desc_en": "Dimensional and torque reports shipped with every batch.", "desc_zh": "每批随附尺寸与扭矩检验报告。" }
+  ],
+  "advantages": [
+    { "icon": "material", "title_en": "Traceable Material", "title_zh": "材料可追溯", "desc_en": "Every batch links back to a mill certificate — steel grade, heat number, mechanical properties.", "desc_zh": "每批产品可追溯至材质证明：钢号、炉号、力学性能。" },
+    { "icon": "inspection", "title_en": "100% Final Inspection", "title_zh": "成品全检", "desc_en": "Thread gauges, hardness and torque coefficient tested; reports shipped with the goods.", "desc_zh": "螺纹通止规、硬度、扭矩系数逐批检测，报告随货。" },
+    { "icon": "export", "title_en": "40+ Countries Served", "title_zh": "出口 40+ 国", "desc_en": "18 years of export packing, documents and port logistics — 40 minutes from Ningbo port.", "desc_zh": "18 年出口包装、单证与港口物流经验，距宁波港 40 分钟。" },
+    { "icon": "oem", "title_en": "OEM to Drawing", "title_zh": "来图定制", "desc_en": "Non-standard fasteners quoted from your drawing within 48 hours.", "desc_zh": "非标件按图纸报价，48 小时内回复。" }
+  ],
+  "testimonials": [
+    { "quote_en": "Dimensional reports match our incoming inspection every time. Three years, zero rejected batches.", "author": "M. Weber", "country": "Germany" },
+    { "quote_en": "They handled EN 14399 CE documentation better than our previous EU supplier.", "author": "J. Kowalski", "country": "Poland" }
+  ],
+  "faq": [
+    { "q_en": "What is your MOQ?", "a_en": "1,000 pcs for standard items; 500 pcs/sets for structural bolts and large diameters. Trial orders are negotiable for first cooperation.", "q_zh": "起订量是多少？", "a_zh": "标准件 1,000 件起订；钢结构螺栓与大规格 500 件/套起订。首次合作可协商试单。" },
+    { "q_en": "What is the production lead time?", "a_en": "15–25 days for standard items after deposit; 30–40 days for non-standard or HDG items. Stock sizes ship within 7 days.", "q_zh": "生产周期多长？", "a_zh": "标准件收到定金后 15–25 天；非标件或热浸镀锌件 30–40 天；现货规格 7 天内发货。" },
+    { "q_en": "Do you provide free samples?", "a_en": "Yes — standard samples are free, freight collect. Non-standard samples are quoted case by case.", "q_zh": "提供免费样品吗？", "a_zh": "标准样品免费，运费到付；非标样品单独报价。" },
+    { "q_en": "Can you produce from our drawings?", "a_en": "Yes. Send a drawing (PDF/DWG/STEP) with material and finish requirements; our engineers reply with a quotation within 48 hours.", "q_zh": "可以按图纸定制吗？", "a_zh": "可以。发送图纸（PDF/DWG/STEP）并注明材质与表面处理要求，工程师 48 小时内报价。" },
+    { "q_en": "What payment terms do you accept?", "a_en": "T/T (30% deposit, balance against B/L copy) and irrevocable L/C at sight for orders above USD 30,000.", "q_zh": "接受哪些付款方式？", "a_zh": "T/T（30% 定金，见提单副本付尾款）；金额超过 3 万美元可接受不可撤销即期信用证。" }
+  ]
+}
