@@ -41,8 +41,8 @@ export function SiteHeader({
         </div>
       )}
       <div className="container-site flex h-16 items-center justify-between gap-6">
-        <Link href="/" className="min-w-0 lg:shrink-0">
-          <span className="type-display-sm block text-sm leading-tight sm:text-base sm:leading-none">
+        <Link href="/" className="shrink-0">
+          <span className="type-display-sm block whitespace-nowrap text-sm leading-none sm:text-base">
             {companyName}
           </span>
         </Link>
