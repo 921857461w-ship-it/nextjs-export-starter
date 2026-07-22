@@ -40,9 +40,9 @@ export function SiteHeader({
           </div>
         </div>
       )}
-      <div className="container-site flex h-16 items-center justify-between gap-6">
-        <Link href="/" className="shrink-0">
-          <span className="type-display-sm block whitespace-nowrap text-sm leading-none sm:text-base">
+      <div className="container-site flex h-16 items-center justify-between gap-3">
+        <Link href="/" className="min-w-0 shrink">
+          <span className="type-display-sm block truncate text-sm leading-none sm:text-base">
             {companyName}
           </span>
         </Link>
@@ -59,18 +59,18 @@ export function SiteHeader({
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex shrink-0 items-center gap-2">
           <Link
             href={path}
             locale={otherLocale}
-            className="type-label whitespace-nowrap border border-line px-2.5 py-2 text-muted hover:border-ink hover:text-ink"
+            className="type-label whitespace-nowrap border border-line px-2 py-2 text-muted hover:border-ink hover:text-ink"
             style={{ fontFamily: "system-ui, sans-serif" }}
           >
             {otherLocale === "zh" ? "中文" : "EN"}
           </Link>
           <Link
             href="/contact#inquiry"
-            className={`${buttonClass("primary")} hidden min-h-9 px-4 py-2 sm:inline-flex`}
+            className={`${buttonClass("primary")} hidden min-h-9 px-3 py-2 text-sm sm:inline-flex`}
           >
             {t("getQuote")}
           </Link>
@@ -78,7 +78,7 @@ export function SiteHeader({
           <button
             type="button"
             popoverTarget="mobile-nav"
-            className="inline-flex size-11 items-center justify-center border border-line text-ink lg:hidden"
+            className="inline-flex size-10 items-center justify-center border border-line text-ink lg:hidden"
             aria-label={t("menu")}
           >
             <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="1.5" fill="none" aria-hidden="true">
