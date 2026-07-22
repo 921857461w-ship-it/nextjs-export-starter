@@ -19,12 +19,12 @@
     "map_image": "map.jpg"
   },
   "hero": {
-    "headline_en": "High-Strength Fasteners, Engineered to Standard",
-    "headline_zh": "高强度紧固件，按标准制造",
-    "subline_en": "ISO · DIN · ASTM nuts, bolts and threaded rods from M6 to M64. 8,000 t annual capacity, salt-spray tested, delivered to 40+ countries.",
-    "subline_zh": "ISO · DIN · ASTM 标准螺母、螺栓与螺纹杆，规格 M6–M64。年产能 8,000 吨，盐雾测试验证，出口 40 多个国家。",
+    "headline_en": "TITANIUM&TITANIUM ALLOYS SPECIALIST, Custom Solutions for SMEs",
+    "headline_zh": "钛及钛合金专家，专注为中小企业提供钛材及钛合金定制解决方案",
+    "subline_en": "ISO · AMS · ASTM Specialist in Titanium Round Bar, Tube & Pipe, Sheet & Plate. Inspection starts with visual examination of appearance, followed by UT to ensure no internal defects. Delivered to 8+ countries.",
+    "subline_zh": "ISO · AMS · ASTM 专业生产钛圆棒、管材、板材。检验首先进行外观目视检查，然后进行超声波检测，确保无内部缺陷。产品远销多国。",
     "image": "hero.jpg",
-    "badges": ["ISO 9001:2015", "SINCE 2008", "CLASS 8.8–12.9", "PED 2014/68/EU"]
+    "badges": ["ISO 9001:2015", "SINCE 2008"]
   },
   "stats": [
     { "label_en": "Years Exporting", "label_zh": "出口年限", "value": "3" },
@@ -328,7 +328,7 @@
   "advantages": [
     { "icon": "material", "title_en": "Traceable Material", "title_zh": "材料可追溯", "desc_en": "Every batch links back to a mill certificate — steel grade, heat number, mechanical properties.", "desc_zh": "每批产品可追溯至材质证明：钢号、炉号、力学性能。" },
     { "icon": "inspection", "title_en": "100% Final Inspection", "title_zh": "成品全检", "desc_en": "Thread gauges, hardness and torque coefficient tested; reports shipped with the goods.", "desc_zh": "螺纹通止规、硬度、扭矩系数逐批检测，报告随货。" },
-    { "icon": "export", "title_en": "40+ Countries Served", "title_zh": "出口 40+ 国", "desc_en": "18 years of export packing, documents and port logistics — 40 minutes from Ningbo port.", "desc_zh": "18 年出口包装、单证与港口物流经验，距宁波港 40 分钟。" },
+    { "icon": "export", "title_en": "8+ Countries Served", "title_zh": "出口 8+ 国", "desc_en": "18 years of export packing, documents and port logistics — 40 minutes from Ningbo port.", "desc_zh": "18 年出口包装、单证与港口物流经验，距宁波港 40 分钟。" },
     { "icon": "oem", "title_en": "OEM to Drawing", "title_zh": "来图定制", "desc_en": "Non-standard fasteners quoted from your drawing within 48 hours.", "desc_zh": "非标件按图纸报价，48 小时内回复。" }
   ],
   "testimonials": [
@@ -336,9 +336,9 @@
     { "quote_en": "They handled EN 14399 CE documentation better than our previous EU supplier.", "author": "J. Kowalski", "country": "Poland" }
   ],
   "faq": [
-    { "q_en": "What is your MOQ?", "a_en": "1,000 pcs for standard items; 500 pcs/sets for structural bolts and large diameters. Trial orders are negotiable for first cooperation.", "q_zh": "起订量是多少？", "a_zh": "标准件 1,000 件起订；钢结构螺栓与大规格 500 件/套起订。首次合作可协商试单。" },
+    { "q_en": "What is your MOQ?", "a_en": "20 pcs for standard items; 20 pcs/sets for structural bolts and large diameters. Trial orders are negotiable for first cooperation.", "q_zh": "起订量是多少？", "a_zh": "标准件 20 件起订；钢结构螺栓与大规格 20 件/套起订。首次合作可协商试单。" },
     { "q_en": "What is the production lead time?", "a_en": "15–25 days for standard items after deposit; 30–40 days for non-standard or HDG items. Stock sizes ship within 7 days.", "q_zh": "生产周期多长？", "a_zh": "标准件收到定金后 15–25 天；非标件或热浸镀锌件 30–40 天；现货规格 7 天内发货。" },
-    { "q_en": "Do you provide free samples?", "a_en": "Yes — standard samples are free, freight collect. Non-standard samples are quoted case by case.", "q_zh": "提供免费样品吗？", "a_zh": "标准样品免费，运费到付；非标样品单独报价。" },
+    { "q_en": "Do you provide free samples?", "a_en": "Sorry — standard samples are not free, freight collect. Non-standard samples are quoted case by case.", "q_zh": "提供免费样品吗？", "a_zh": "标准样品非免费，运费到付；非标样品单独报价。" },
     { "q_en": "Can you produce from our drawings?", "a_en": "Yes. Send a drawing (PDF/DWG/STEP) with material and finish requirements; our engineers reply with a quotation within 48 hours.", "q_zh": "可以按图纸定制吗？", "a_zh": "可以。发送图纸（PDF/DWG/STEP）并注明材质与表面处理要求，工程师 48 小时内报价。" },
     { "q_en": "What payment terms do you accept?", "a_en": "T/T (30% deposit, balance against B/L copy) and irrevocable L/C at sight for orders above USD 30,000.", "q_zh": "接受哪些付款方式？", "a_zh": "T/T（30% 定金，见提单副本付尾款）；金额超过 3 万美元可接受不可撤销即期信用证。" }
   ]
