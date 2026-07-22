@@ -2,20 +2,20 @@
   "version": 1,
   "company": {
     "name_en": "Tiphoon Metal Technology (Wenzhou) Co., Ltd.",
-    "name_zh": "温州钛风钛材有限公司",
+    "name_zh": "温州钛锋钛材科技有限公司",
     "short_name_en": "Tiphoon Metal",
-    "short_name_zh": "钛风钛材",
-    "tagline_en": "High-strength nuts, bolts and threaded rods — M6 to M64, made to standard since 2008.",
-    "tagline_zh": "高强度螺母、螺栓与螺纹杆——M6 至 M64，按标准制造，始于 2008。",
+    "short_name_zh": "钛锋钛材",
+    "tagline_en": "TITANIUM&TITANIUM ALLOYS SPECIALIST IN WENZHOU CHINA, made to standard since 2008.",
+    "tagline_zh": "钛及钛合金专家，标准制造，始于 2008。",
     "founded": 2008,
-    "employees": "120+",
-    "about_en": "Haiwei Fastener manufactures high-strength nuts, bolts and threaded rods at a 15,000 m² plant in Ningbo, 40 minutes from Ningbo-Zhoushan port. Founded in 2008, we run 32 cold-forging and thread-rolling lines with an annual capacity of 8,000 tons, producing to ISO, DIN, ASTM, GB and EN standards in property classes 8 to 12.9. Every batch ships with mill certificates and full dimensional inspection reports. Our fasteners are used in structural steel, rail, wind power and machinery projects across 40+ countries in Europe, the Americas, the Middle East and Southeast Asia.",
-    "about_zh": "宁波海威紧固件有限公司位于宁波，厂区面积 15,000 平方米，距宁波舟山港 40 分钟车程。公司成立于 2008 年，拥有冷镦与搓丝产线 32 条，年产能 8,000 吨，按 ISO、DIN、ASTM、GB、EN 标准生产 8 级至 12.9 级高强度紧固件。每批次随附材质证明与全尺寸检验报告。产品应用于钢结构、轨道、风电与机械项目，出口欧洲、美洲、中东与东南亚 40 多个国家。",
+    "employees": "60+",
+    "about_en": "Tiphoon Metal Technology Co., Ltd. is based in Wenzhou, China — a city renowned for its mature metal manufacturing ecosystem and excellent logistics infrastructure. Established in 2008, we specialize in the supply and processing of titanium and titanium alloys, refractory metals, rare metals, and other non-ferrous metals. We are a fast-growing, export-driven enterprise backed by Wenzhou's robust industrial supply chain, dedicated to providing customers with comprehensive raw materials and processing services for titanium and titanium alloys.",
+    "about_zh": "温州钛锋钛材科技有限公司位于中国温州——一座以其成熟的金属制造生态系统和完善的物流基础设施而闻名的城市。公司成立于2008年，专注于钛及钛合金、耐火金属、稀有金属及其他有色金属的供应和加工。我们是一家快速发展、出口导向型企业，依托温州强大的产业供应链，致力于为客户提供钛及钛合金的原材料及加工服务。",
     "whatsapp": "+86 150 5757 5553",
-    "email": "sales@haiwei-fastener.com",
+    "email": "sales@tiphoon.net",
     "phone": "+86 150 5757 5553",
-    "address_en": "No. 58 Zhenhai Industrial Zone, Ningbo, Zhejiang, China 315200",
-    "address_zh": "浙江省宁波市镇海工业区 58 号，315200",
+    "address_en": "NO.928 Tianzhong Road, Longwan District, Wenzhou City, Zhejiang Province, China. Postcode: 325000",
+    "address_zh": "中国浙江省温州市龙湾区天中路928 邮政编码: 325000",
     "map_image": "map.jpg"
   },
   "hero": {
@@ -27,8 +27,8 @@
     "badges": ["ISO 9001:2015", "SINCE 2008", "CLASS 8.8–12.9", "PED 2014/68/EU"]
   },
   "stats": [
-    { "label_en": "Years Exporting", "label_zh": "出口年限", "value": "18" },
-    { "label_en": "Countries Served", "label_zh": "出口国家", "value": "40+" },
+    { "label_en": "Years Exporting", "label_zh": "出口年限", "value": "3" },
+    { "label_en": "Countries Served", "label_zh": "出口国家", "value": "8+" },
     { "label_en": "Annual Capacity (t)", "label_zh": "年产能（吨）", "value": "8,000" },
     { "label_en": "Production Lines", "label_zh": "生产线", "value": "32" }
   ],
