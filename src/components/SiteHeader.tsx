@@ -41,8 +41,12 @@ export function SiteHeader({
         </div>
       )}
       <div className="container-site flex h-16 items-center justify-between gap-3">
-        <Link href="/" className="min-w-0 shrink">
-          <span className="type-display-sm block truncate text-sm leading-none sm:text-base">
+        <Link href="/" className="min-w-0 shrink leading-tight">
+          <span
+            className={`type-display-sm block text-sm sm:text-base ${
+              locale === "zh" ? "whitespace-nowrap" : "max-w-20"
+            }`}
+          >
             {companyName}
           </span>
         </Link>
@@ -70,7 +74,7 @@ export function SiteHeader({
           </Link>
           <Link
             href="/contact#inquiry"
-            className={`${buttonClass("primary")} hidden min-h-9 px-3 py-2 text-sm sm:inline-flex`}
+            className={`${buttonClass("primary")} hidden min-h-8 px-2.5 py-1.5 text-xs sm:inline-flex`}
           >
             {t("getQuote")}
           </Link>
