@@ -1,3 +1,5 @@
+// src/components/sections/Hero.tsx
+
 import { z } from "zod";
 import Image from "next/image";
 import { ButtonLink } from "@/components/ui/Button";
@@ -23,7 +25,7 @@ export function Hero({ variant, headline, subline, ctas, image, imageAlt, badges
         <Image src={image} alt={imageAlt} fill priority quality={50} sizes="100vw" className="object-cover" />
         <div aria-hidden="true" className="absolute inset-0 bg-(--hero-scrim,black)/65" />
         <div className="container-site relative w-full py-16 text-center sm:py-24">
-          <h1 className="type-display anim-rise mx-auto max-w-4xl text-[clamp(2.4rem,1.8rem+2.8vw,4rem)] text-white">
+          <h1 className="type-display anim-rise mx-auto max-w-4xl overflow-hidden text-[clamp(1.8rem,1.2rem+3.2vw,4rem)] text-white [overflow-wrap:anywhere]">
             {headline}
           </h1>
           {subline && (
@@ -51,13 +53,12 @@ export function Hero({ variant, headline, subline, ctas, image, imageAlt, badges
       className="tone-dark relative isolate flex min-h-[min(70svh,34rem)] flex-col justify-end overflow-hidden bg-bg sm:min-h-[min(82svh,52rem)]"
     >
       <Image src={image} alt={imageAlt} fill priority quality={50} sizes="100vw" className="object-cover" />
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 bg-linear-to-r from-black/78 via-black/55 to-black/15"
-      />
+      <div aria-hidden="true" className="absolute inset-0 bg-linear-to-r from-black/78 via-black/55 to-black/15" />
       <div className="container-site relative w-full pt-24 pb-10 sm:pt-40 sm:pb-14">
         <div className="max-w-3xl">
-          <h1 className="type-display anim-rise text-white">{headline}</h1>
+          <h1 className="type-display anim-rise overflow-hidden text-white [overflow-wrap:anywhere]">
+            {headline}
+          </h1>
           {subline && (
             <p className="anim-rise-late mt-4 max-w-xl text-base text-white/85 sm:mt-6 sm:text-lg">
               {subline}

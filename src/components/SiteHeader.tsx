@@ -1,10 +1,10 @@
+// src/components/SiteHeader.tsx
+
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { content, navPages, pick, type Locale } from "@/lib/site-data";
 import { buttonClass } from "@/components/ui/Button";
 
-// 站点导航。移动端菜单 = 原生 Popover（零 JS）；语言切换 = 当前路径互换 locale。
-// variant: bar = 单栏（默认）；topbar = 电话/邮箱顶栏 + 主导航栏（对标站常见版式）
 export function SiteHeader({
   locale,
   path,
@@ -42,7 +42,7 @@ export function SiteHeader({
       )}
       <div className="container-site flex h-16 items-center justify-between gap-6">
         <Link href="/" className="min-w-0 lg:shrink-0">
-          <span className="type-display-sm block truncate text-base leading-none lg:overflow-visible">
+          <span className="type-display-sm block text-sm leading-tight sm:text-base sm:leading-none">
             {companyName}
           </span>
         </Link>
@@ -64,7 +64,6 @@ export function SiteHeader({
             href={path}
             locale={otherLocale}
             className="type-label whitespace-nowrap border border-line px-2.5 py-2 text-muted hover:border-ink hover:text-ink"
-            // 系统字体渲染"中文"两字，避免 en 页面为俩字符拉取 Noto 分片（~120KB）
             style={{ fontFamily: "system-ui, sans-serif" }}
           >
             {otherLocale === "zh" ? "中文" : "EN"}
@@ -76,7 +75,6 @@ export function SiteHeader({
             {t("getQuote")}
           </Link>
 
-          {/* 移动菜单 */}
           <button
             type="button"
             popoverTarget="mobile-nav"
