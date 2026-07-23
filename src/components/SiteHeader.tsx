@@ -87,7 +87,7 @@ export function SiteHeader({
 
                 ? "whitespace-nowrap"
 
-                : "max-w-20 lg:max-w-none"
+                : "max-w-14 lg:max-w-none"
 
             }`}
 
@@ -129,7 +129,7 @@ export function SiteHeader({
 
             locale={otherLocale}
 
-            className="type-label whitespace-nowrap border border-line px-2 py-2 text-muted hover:border-ink hover:text-ink"
+            className="type-label whitespace-nowrap border border-line px-1.5 py-1.5 text-muted hover:border-ink hover:text-ink"
 
             style={{ fontFamily: "system-ui, sans-serif" }}
 
@@ -143,7 +143,7 @@ export function SiteHeader({
 
             href="/contact#inquiry"
 
-            className={`${buttonClass("primary")} hidden min-h-8 px-2.5 py-1.5 text-xs sm:inline-flex`}
+            className={`${buttonClass("primary")} hidden min-h-7 px-2 py-1 text-[11px] sm:inline-flex`}
 
           >
 
