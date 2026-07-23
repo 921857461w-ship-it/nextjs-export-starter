@@ -88,7 +88,7 @@ export function SiteHeader({
 
                 ? "whitespace-nowrap text-sm sm:text-base"
 
-                : "max-w-[4.5em] text-[11px] lg:max-w-none lg:text-base"
+                : "-ml-0.5 max-w-[3.6em] text-[10px] lg:ml-0 lg:max-w-none lg:text-base"
 
             }`}
 
@@ -227,4 +227,3 @@ export function SiteHeader({
 }
 
  
-
