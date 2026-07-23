@@ -130,7 +130,7 @@ export function SiteHeader({
 
             locale={otherLocale}
 
-            className="type-label whitespace-nowrap border border-line px-1.5 py-1.5 text-muted hover:border-ink hover:text-ink"
+            className="type-label whitespace-nowrap px-1.5 py-1.5 text-muted hover:text-ink"
 
             style={{ fontFamily: "system-ui, sans-serif" }}
 
@@ -225,5 +225,3 @@ export function SiteHeader({
   );
 
 }
-
- 
