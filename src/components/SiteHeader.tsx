@@ -1,10 +1,4 @@
-品牌名两行导致整体变高，与固定高度  h-16  冲突，第二行 "Metal" 溢出压到了右侧按钮上。
 
-不改两行效果的前提下，核心修复：让导航栏高度在移动端自适应，同时缩小品牌名字号让两行更紧凑。
-
- 
-
-// src/components/SiteHeader.tsx
 
 import { useTranslations } from "next-intl";
 
@@ -234,33 +228,3 @@ export function SiteHeader({
 
  
 
-与上一版对比，只改了导航栏容器的 3 行：
-位置
-改前
-改后
-效果
-导航栏容器
-`h-16`
-`min-h-14 lg:h-16`
-移动端自适应高度，桌面锁死不变
-容器内边距
-无
-`py-1.5 lg:py-0`
-移动端上下各 6px 呼吸空间
-容器 `gap`
-`gap-3`
-`gap-2`
-收紧一点间距
-英文品牌名
-`max-w-14 text-sm`
-`max-w-[4.5em] text-[11px]`
-宽度按字符数限、字号 11px，两行约 26px 高不溢出
-中文品牌名
-`text-sm sm:text-base`
-不变
-单行不受影响
-品牌名行高
-`leading-tight`(父级)
-`leading-none`(span自身)
-行高更紧，两行高度最小化
-桌面端通过  lg:h-16 、 lg:py-0 、 lg:max-w-none 、 lg:text-base  全部还原，零影响。
