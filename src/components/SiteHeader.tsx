@@ -1,4 +1,3 @@
-// src/components/SiteHeader.tsx
 
 import { useTranslations } from "next-intl";
 
@@ -226,24 +225,3 @@ export function SiteHeader({
 
 }
 
- 
-
-与最初版本相比的累积改动：
-位置
-改动
-品牌名容器
-`min-w-0 shrink leading-tight`，允许压缩
-品牌名中文
-`whitespace-nowrap`，移动端单行
-品牌名英文
-`max-w-20 lg:max-w-none`，移动端80px限宽折两行，桌面端取消限宽
-导航栏 `gap`
-`gap-6` → `gap-3`，省12px
-右侧按钮组
-加 `shrink-0`，`gap-3` → `gap-2`
-语言切换
-`px-2.5` → `px-2`，省4px
-CTA 按钮
-`min-h-9 px-3 py-2 text-sm` → `min-h-8 px-2.5 py-1.5 text-xs`，整体缩小
-汉堡菜单
-`size-11` → `size-10`，省4px
